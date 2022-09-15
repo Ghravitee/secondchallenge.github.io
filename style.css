@@ -1,0 +1,117 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Utility class */
+
+.out {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
+}
+
+.card-layout {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 600px;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 12px;
+ }
+
+ .card-image {
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+ }
+
+ .card-content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    padding: 10px;   
+}
+
+.main-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.the-paragraph {
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+/* -----------------------------MEDIA QUERIES----------------------- */
+/* -----------------------------MEDIA QUERIES----------------------- */
+/* -----------------------------MEDIA QUERIES----------------------- */
+/* -----------------------------MEDIA QUERIES----------------------- */
+
+/*------------------------------ MOBILE DEVICES----------------------- */
+/*------------------------------ MOBILE DEVICES----------------------- */
+/*------------------------------ MOBILE DEVICES----------------------- */
+/*------------------------------ MOBILE DEVICES----------------------- */
+
+@media screen and (max-width: 600px) {
+    .container {
+        min-height: 600;
+    }
+
+    .card-layout {
+        width: 300px;
+        height: 480px;
+    }
+
+    .card-content {
+        width: 275px;
+        height: 215px;       
+    }
+
+    .card-image {
+        width: 275px;
+        height: 265px;
+    }
+
+    .main-heading {
+        font-size: 20px;
+    }
+
+    .the-paragraph {
+        font-size: 16px;
+    }
+}
